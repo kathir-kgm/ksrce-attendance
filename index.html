@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ksrce|Class List</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
+
+</head>
+
+<body>
+<div class="title">
+<h3>Class List</h3>
+</div>
+<div class="create button">
+<!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-lg create " data-toggle="modal" data-target="#myModal">Create</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Create New Class </h4>
+      </div>
+      <div class="modal-body">
+	  <form>
+  <div class="form-group">
+    <label for="degree type">Degree</label>
+<select class="form-control">
+  <option>BE</option>
+  <option>ME</option>
+  <option>MCA</option>
+  <option>MBA</option>
+  <option>BTECH</option>
+  <option>MTECH</option>
+</select>  </div> 
+<div class="form-group">
+    <label for="department type">Department</label>
+<select class="form-control">
+  <option>CSE</option>
+  <option>ECE</option>
+  <option>EEE</option>
+  <option>MECH</option>
+  <option>AUTOMOBILE</option>
+  <option>BTECH-IT</option>
+  <option>MTECH-IT</option>
+  <option>CIVIL</option>
+  <option>ME-CSE</option>
+  <option>ME-CEM</option>
+  <option>ME-EST</option>
+  <option>ME-ISE</option>
+  <option>ME-PED</option>
+  <option>ME-SE</option>
+  <option>ME-VLSI</option>
+</select>  </div>
+ <div class="form-group">
+    <label for="which year">Year</label>
+<select class="form-control">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+</select>  </div>
+<div class="form-group">
+    <label for="which section">Section</label>
+<select class="form-control">
+  <option>A</option>
+  <option>B</option>
+  <option>C</option>
+  <option>D</option>
+</select>  </div>
+<div class="form-group">
+<label for="class status">Status:</label>
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label>
+</div>
+  </div>
+ 
+<div class="submitbutton">
+  <button type="submit" class="btn btn-primary sub" >Submit</button>
+  </div>
+</form>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+</div>
+<div class="classdetails">
+<div class="table-responsive-lg">
+  <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">S.No</th>
+      <th scope="col">Degree</th>
+      <th scope="col">Department</th>
+      <th scope="col">Year</th>
+      <th scope="col">Section</th>
+      <th scope="col">Status</th>
+      <th scope="col">Edit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>BE</td>
+      <td>ECE</td>
+      <td>2</td>
+      <td>B</td>
+      <td>ACTIVE</td>
+      <td> <button class="btn btn edit"  data-toggle="modal" data-target="#myModal">Edit</button></td>
+    </tr>
+	</tbody>
+  </table>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
